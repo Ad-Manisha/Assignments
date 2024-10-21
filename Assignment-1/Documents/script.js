@@ -18,9 +18,6 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     const password = document.getElementById('password').value;
     const rememberMe = document.getElementById('remember-me').checked;
 
-    // Perform login logic here (e.g., form validation, server-side authentication)
-    
-    // Save username/password in localStorage if 'Remember Me' is checked
     if (rememberMe) {
         localStorage.setItem('mobilenum', mobilenum);
         localStorage.setItem('password', password);
